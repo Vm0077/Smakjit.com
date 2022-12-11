@@ -2,11 +2,13 @@
 
 
 .content-background{
-    background-color:bisque; 
-    background-image: url('/img/footer_background_01.jpg');
-    background-repeat: no-repeat; 
+   
+    background-image: url('/Smakjit.com/img/SVG/Cambodia\ Background.svg');
     background-size:cover;
+    background-repeat: repeat-x;
     width: 100%;
+    height: 800px;
+
     padding-top:30px ;
     height:var(--slide-image-height);
     position: absolute;
@@ -22,9 +24,7 @@
     max-width: var(--width-max);
     height: auto;
     border-radius: 25px;
-    box-shadow: 0px 0px 2px 0px ;
-   
-    
+    box-shadow: 0px 0px 2px 0px ;   
 }
 
 
@@ -64,13 +64,9 @@
 
 
 .content-slide-image img{
-
-   
     width:100%;
     height:var(--slide-image-height) ;
     border-radius: 25px 25px 0px 0px;
-    
-    
 }
 
 .content-slide-image-details{
@@ -92,7 +88,6 @@
     font-size: var(--dis-font);
     width: 50%;
     margin: 0;
-   
 }
 
 
@@ -114,14 +109,8 @@
     text-decoration:solid;
     border-radius: 25px;
     padding:10px 40px;
+}
 
-}
-.content-separator-background{
-    background-color: #222;
-    height: 30px;
-    width:auto;
-    
-}
 
 .content-news-container{
     margin-left: auto;
@@ -141,13 +130,11 @@
 
 .content-news-title h1{
     height: 30px;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 .content-news-title img{
     width: 25px;
-
 }
 
 
@@ -167,6 +154,19 @@
     border-radius: 25px;
     box-shadow: 1px 5px #e1e1e1 ;
 }
+
+.content-news-grid-element:hover{
+   
+    transform: scale(1.05);
+    background-color: #e1e1e1;
+  
+}
+
+
+
+
+
+
 
 .content-news-grid-element img, .objective-information-card-element img{
     width: 100%;
@@ -294,7 +294,6 @@
 .objective-information h1{
     color: red;
     font-size: var(--title-font-big);
-
 }
 
 .objective-information-card
@@ -327,10 +326,7 @@
 
 .additional-content-background{
     width: 100%;
-    background-color: rgb(218, 222, 159);
     margin-top: 100px;
-    box-shadow: -1px -2px 100px #9e9c9c;
-  
 }
 
 .addtional-content-container{
@@ -378,7 +374,7 @@
 
 #bottom{
   
-    background-color: darkcyan;
+
     margin-top: 0px;
     padding-left: 0px;
     box-shadow: none;

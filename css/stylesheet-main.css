@@ -16,8 +16,17 @@ body{
     
 }
 
+.content-separator-background{
+    background-color: #222;
+    height: 30px;
+    width:auto; 
+    margin-top: 50px;
+}
+
 a{
     text-decoration: none;
+    color:#222
+ 
 }
 
 
@@ -29,7 +38,8 @@ a{
     display: inline-flex;
     align-items:center;
     justify-content: center;
-    position:relative;
+    position:fixed;
+    z-index: 10;
 }
 
 
@@ -75,6 +85,15 @@ a{
     width: 100%;
     visibility: hidden;
  
+}
+
+.navigation-bar .option{
+    background-color: red;
+    top: 80px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: 4;
 }
 
 footer{
@@ -133,10 +152,21 @@ footer{
     }
 }
 
+@keyframes poping1 {
+    from{
+        width: 80px;
+    
+    }
+    to{
+        
+        width: 90px;
+    }
+}
+
 .footer-information-media-follow img:hover{
    
-    animation: poping 500ms ease-in;
-    transform: scale(1.3);
+    animation: poping1 200ms ease-in;
+    width: 90px;
     
     
  }
