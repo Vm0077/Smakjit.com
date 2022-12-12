@@ -38,26 +38,26 @@ a{
     display: inline-flex;
     align-items:center;
     justify-content: center;
-    position:fixed;
+    position:relative;
     z-index: 10;
 }
 
 
-.navigation-logo{
+.logo{
     display: flex;
     
 }
 
-.navigation-logo img{
+.logo img{
     height: var(--nav-hieght);
 
 }
 
-.navigation-logo h1{
+.navigation .logo h1{
     color:white;
 }
 
-.navigation-stack{
+.navigation-bar .stack{
     
     width: calc(var(--nav-hieght) / 2);
     padding: 10px;
@@ -70,14 +70,14 @@ a{
   
 }
 
-.navigation-stack-element{
+.stack-element{
     background-color:rgb(255, 255, 255);
     width: calc(var(--nav-hieght) / 2);
     height: 0.5rem;
    
 }
 
-.navigation-stack-menu{
+.stack-menu{
     background-color:var(--dis);
     height: 500px;
     top:200px;
@@ -91,7 +91,7 @@ a{
     background-color: red;
     top: 80px;
     position: absolute;
-    width: 100%;
+    width: auto;
     height: 100px;
     z-index: 4;
 }
