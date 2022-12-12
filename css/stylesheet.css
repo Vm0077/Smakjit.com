@@ -33,7 +33,7 @@
     background-color: rgb(33, 33, 33,0.1);
     height:var(--slide-image-height);
     width: 80px;
-    border-radius: 25px 0px 0px;
+    border-radius: 15px 0px 0px;
 
     display: flex;
     justify-content:center;
@@ -78,7 +78,7 @@
 
 
 .content-slide .image-details h1{
-    color:red;
+    color:rgb(255, 136, 0);
     margin: 0;
 
 }
@@ -103,16 +103,16 @@
 }
 
 .content-slide .learn-more a{
-    background-color: red;
+    background-color: rgb(246, 135, 8);
     color: white;
     font-size: var(--dis-font);
     text-decoration:solid;
-    border-radius: 25px;
+    border-radius: 15px;
     padding:10px 40px;
 }
 
 
-.content-news .grid-container{
+.content-news{
     margin-left: auto;
     margin-right:auto;
     max-width: var(--width-max);
@@ -156,7 +156,7 @@
     background-color:rgb(255, 255, 255);
     height: auto;
     width: auto;
-    border-radius: 25px;
+    border-radius:15px;
     box-shadow: 10px 10px 15px #e1e1e1 ;
 }
 
@@ -169,36 +169,34 @@
 
 
 
-
-
-
 .grid-element img, .objective-information-card-element img{
     width: 100%;
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 
 }
 
 .content-news .description{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
 }
 
 .content-news .description h1{
-    color:red;
+    color:rgb(253, 165, 2);
 }
 
-.content-news-grid-element-description p{
+.content-news .description p{
     font-size: var(--dis-font);
+;
 }
 
 
-.content-news-grid-element-description-locatedate{
+.content-news .locatedate{
     position: relative;
     padding-bottom: 10px;
 }
 
-.content-news-grid-element-description-locatedate strong::before{
+.content-news .locatedate strong::before{
    
     background-image: url('/img/SVG/location.svg') ;
     background-repeat: no-repeat;
@@ -209,7 +207,7 @@
 
 }
 
-.content-news-grid-element-description-locatedate span p::before{
+.content-news .locatedate span p::before{
    
     background-image: url('/img/SVG/calendar.svg') ;
     background-repeat: no-repeat;
@@ -220,7 +218,7 @@
 
 }
 
-.content-news-grid-element-description-locatedate strong{
+.content-news .locatedate strong{
     font-size: var(--dis-font);
     color: red;
 
@@ -229,7 +227,7 @@
 
 
 
-.content-news-grid-element-description-locatedate span p{
+.content-news .locatedate span p{
     margin:0px;
     
 }
@@ -249,7 +247,7 @@
     box-shadow: 1px 10px 100px  rgb(97, 97, 97);
 }
 
-.info-help-callout{
+.info-help .callout{
   
     margin-left: auto;
     margin-right: auto;
@@ -258,20 +256,20 @@
    
 }
 
-.info-help-callout span{
+.info-help .callout span{
     font: 1em Roboto;
     font-size:var(--title-font-big);
 }
 
-.info-help-callout p{
+.info-help .callout p{
     font-size:var(--title-font-medium);
     width: 75%;
 }
 
 
-.info-help-callout-learn-more span{
+.info-help .learn-more span{
     color: rgb(255, 255, 255);
-    background-color: red;
+    background-color: rgb(255, 136, 0);
     font-size:50px;
     text-decoration: none;
     padding: 20px 40px;
@@ -296,7 +294,7 @@
 }
 
 .objective-information h1{
-    color: red;
+    color: rgb(248, 180, 34);
     font-size: var(--title-font-big);
 }
 
@@ -328,39 +326,40 @@
     margin-top: 60px;
 }
 
-.additional-content-background{
+.additional-content{
     width: 100%;
     margin-top: 100px;
 }
 
-.addtional-content-container{
+.additional-content .container{
    width: var(--width-max);
-   padding: 50px;
+   padding: 5px;
    display: flex;
    margin-left: auto;
    margin-right: auto;
+   
   
 }
 
-.addtional-content-container img{
+.additional-content .container img{
     width: var(--img-size);
     height: 100%;
  
  }
  
 
-.additional-content-text{
+.additional-content .text{
     padding-left: 50px;
     width: 50%;
 }
 
-.additional-content-text-header h1{
+.additional-content .header h1{
     position: relative;
     font-size: 100px;
     margin: 0;
 }
 
-.additional-content-text-header h2{
+.additional-content .header h2{
     position: relative;
     font-size: 90px;
     top: 10px;
@@ -369,7 +368,7 @@
    
 }
 
-.additional-content-text p{
+.additional-content .text p{
     font-size: 30px;
     position: relative;
     top:0;

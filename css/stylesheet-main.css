@@ -9,11 +9,11 @@
     --slide-image-height:400px;
     --dis-font:16;
     --img-size:500px;
+    
 }
 body{
     margin: 0px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family:Open-Sans, Arial, Helvetica, sans-serif;
 }
 
 .content-separator-background{
@@ -119,26 +119,26 @@ footer{
 .footer-information a{
     color: rgb(255, 255, 255);
 }
-.footer-information-sponsor{
+.footer-information .sponsor{
     width: 50%;
     display: flex;
     align-items: flex-start;
 }
 
-.footer-information-sponsor img{
+.footer-information .sponsor img{
     width: 25%;
 }
 
-.footer-information-link{
+.footer-information .link{
     width: 15%; 
 }
 
-.footer-information-media{
+.footer-information .media{
     width: 35%;
     
 }
 
-.footer-information-media-follow img{
+.footer-information .media-follow img{
    width: 15%;
    border-radius: 50%;
    
