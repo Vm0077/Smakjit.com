@@ -1,0 +1,83 @@
+.volunteer-list {
+	display: flex;
+	flex-direction: column;
+}
+.volunteer-list-title {
+	margin-left: 20rem;
+	padding: 20px 0px;
+	font-size: var(--dis-font);
+	display: flex;
+	align-items: center;
+	height: 30px;
+	gap: 20px;
+}
+
+.volunteer-list-title img {
+	width: 25px;
+}
+
+.volunteer-list-row {
+	display: flex;
+	justify-content: center;
+	gap: 10rem;
+	padding: 4rem;
+	width: 100%;
+}
+
+.volunteer-list-element {
+	width: 22.5rem;
+	height: 40rem;
+	border-radius: 40px;
+	box-shadow: 1px 5px #e1e1e1;
+}
+
+.volunteer-title {
+	height: 5%;
+	padding: 10px;
+}
+.volunteer-title h1 {
+	margin: 0;
+	color: red;
+}
+
+.volunteer-list-element img {
+	width: 100%;
+	border-radius: 2rem 2rem 0 0;
+}
+.volunteer-details {
+	height: 33%;
+	padding: 10px;
+}
+
+.volunteer-details .content-news-grid-element-description-locatedate {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	gap: 10px;
+}
+
+.volunteer-details p {
+	margin: 0;
+}
+
+.volunteer-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 6rem;
+	height: 15%;
+}
+
+.element-button {
+	width: 30%;
+	height: 50%;
+	color: white;
+	background-color: red;
+	border: 0;
+	border-radius: 2rem;
+}
+
+.element-button:hover {
+	background-color: darkred;
+	transition: 10ms;
+}
