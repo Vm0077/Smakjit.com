@@ -44,6 +44,7 @@ h2{
 
 .top-details .locatedate strong{
     color:red;
+    font-family: 'PT Sans',sans-serif;
 }
 
 
@@ -215,6 +216,7 @@ h2{
 
 .content-news .locatedate{
     display: flex;
+    
     justify-content: space-evenly;
     position: relative;
     padding-bottom: 10px;
@@ -223,6 +225,7 @@ h2{
 
 
 .content-news .locatedate strong{
+    font-family: 'PT Sans',sans-serif;
     font-size: var(--dis-font);
     color: red;
     display: flex;
